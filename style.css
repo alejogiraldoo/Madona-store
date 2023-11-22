@@ -1,0 +1,67 @@
+/* Style sheet */
+*{
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(255, 166, 181, 0.694);
+}
+
+h1{
+    font-size: 1.7rem;
+    background-color: rgb(252, 129, 150);
+    margin: 0 0 20px 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+div {
+    margin: 10px;
+    text-align: center;
+}
+
+label{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+label::before{
+    content: "🏬 ";
+}
+
+input, button{
+    border-radius: 7px;
+    font-size: 1rem;
+}
+
+input{
+    width: 40%;
+    max-width: 250px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+p{
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+
+button{
+   margin: 0 auto;
+   padding: 7px;
+   width: 90%;
+   max-width: 400px;
+   background-color: rgba(17, 210, 17, 0.532);
+   border: 3px rgba(17, 210, 17, 0.696) groove;
+   font-weight: bold;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgba(17, 210, 17, 0.883);
+}
